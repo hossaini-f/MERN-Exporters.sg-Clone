@@ -1,0 +1,101 @@
+.LATEST_PRODUCT_DIV{}
+  .LATEST_PRODUCT_SCROLLER_BORDER{
+    width:660px;
+    height:400px; 
+    overflow:hidden;  
+    box-sizing:border-box;
+    border:0px solid black;
+  }
+  .LATEST_PRODUCT_SCROLLER{overflow:hidden;}
+  .LATEST_PRODUCT_CONTAINER{}
+  .LATEST_PRODUCT_ITEM{
+    width:210px;
+    margin:0px 10px 10px 0px;
+    float:left;
+  }
+  .LATEST_PRODUCT_ITEM a{
+    text-decoration: none;
+  }
+  .LATEST_PRODUCT_BORDER{
+    background-color:#FFFFFF; 
+    padding:5px;
+    border:0px solid fuchsia;
+    position:relative; /* required for Overlay */
+  }
+  .LATEST_PRODUCT_BORDER:hover{background-color:#FFE4A3;cursor:pointer;}
+  .LATEST_PRODUCT_PIC{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:194px;
+    background-color:#FFFFFF; 
+    height:150px;
+    display:block;
+  }
+  .LATEST_PRODUCT_BORDER:hover .LATEST_PRODUCT_BORDER_OVERLAY{ display: block; }
+  .LATEST_PRODUCT_BORDER_OVERLAY{ 
+    position: absolute; 
+    top: 0; left: 0; right:0; bottom:0;
+    display: none; 
+    background-color: rgba(255,228,163,0.5); 
+    width:inherit;
+    height:inherit;
+    padding:inherit;
+    margin:inherit; 
+  }
+  .LATEST_PRODUCT_BORDER .LTAG{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #565656;
+    width:196px;
+    padding-top:0px;
+    height:14px;
+    padding-bottom:2px;
+  }
+  .LATEST_PRODUCT_BORDER .TAG{
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #888888;
+    float:left;
+    display:block;
+    height:10px;  
+    line-height:10px;
+    padding-top:2px;
+    padding-top:3px;  
+  }
+  .LATEST_PRODUCT_BORDER .PRICE{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #F26D00;
+    display:block;
+    float:right;
+  }
+  .LATEST_PRODUCT_BORDER .PRICE .CURRENCY{
+    font-family: Verdana;
+    font-size: 8px;
+    font-weight: normal;
+    color: #F26D00; 
+  }
+  @media only screen and (max-width: 600px) {
+    .LATEST_PRODUCT_DIV{
+      position:relative;
+      width:100%;
+      box-sizing:border-box;  
+      height:218px;
+      background-color:#F6ECE3;
+      border-top:1px solid #DED4CB;
+      border-bottom:1px solid #DED4CB;
+      padding:10px 0px 10px 0px;
+    } 
+    .LATEST_PRODUCT_SCROLLER_BORDER{width:100%;height:194px;}
+    .LATEST_PRODUCT_SCROLLER{
+      width:100%;
+      overflow:scroll;
+      overflow-y:hidden;
+      height:210px;
+      -webkit-overflow-scrolling: touch;    
+    }
+    .LATEST_PRODUCT_CONTAINER{width:1320px;}
+  }

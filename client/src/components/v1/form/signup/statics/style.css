@@ -1,0 +1,307 @@
+#signup-wrapper{
+    text-align:left;
+    margin: 0px auto;
+    padding:0px;
+    width: 1000px;
+}
+#signup-left-sidebar{
+  float:left;
+  padding-left:9px;
+  padding-right:9px;  
+  padding-bottom:0px;  
+  margin:0px;
+  max-width:680px;
+  width:100%;
+  display:block;
+  box-sizing: border-box;
+  padding-top: 0px;
+}
+.signup-form-container {
+  background-color: #ffffff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.signup-form-container form{
+  display: block;
+}
+.signup-form-container form:nth-child(1) table tr td{
+  padding-bottom: 15px;
+}
+.signup-h4 {
+  background-color: transparent;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #565656;
+}
+.signup-h1 {
+  background-color: transparent;
+  font-family: Verdana;
+  font-size: 26px;
+  font-weight: bold;
+  color: #565656;
+}
+.signup-desc {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: normal;
+  color: #565656;
+}
+.signup-h4 {
+  background-color: transparent;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #565656;
+}
+.signup-desc {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: normal;
+  color: #565656;
+}
+.signup-textbox {
+  color: #8E8E8E;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 0px;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  box-sizing: border-box;
+  position: relative;
+}
+.signup-textbox-label {
+  color: #A5A5A5;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -12px;
+  left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  z-index: 10;
+  height: 15px;
+  line-height: 15px;
+}
+.signup-textbox input {
+  color: #565656;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: solid 1px #CECECE;
+  padding: 0px 10px 0px 10px;
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  box-sizing: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.signup-select {
+  cursor: pointer;
+  color: #565656;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-top: 1px solid #D3D3D3;
+  border-left: 1px solid #D3D3D3;
+  border-right: 1px solid #D3D3D3;
+  border-bottom: 1px solid #A8A8A8;
+  padding: 5px;
+  height: 32px;
+  width: 100%;
+}
+.signup-desc {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: normal;
+  color: #565656;
+}
+.signup-textarea-w {
+  color: #8E8E8E;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 0px;
+  padding: 8px 10px 8px 10px;
+  width: 100%;
+  height: 120px;
+  line-height: 16px;
+  box-sizing: border-box;
+  position: relative;
+}
+.signup-textarea-w textarea {
+  color: #565656;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: solid 1px #CECECE;
+  padding: inherit;
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  box-sizing: inherit;
+  position: absolute;
+  top:0;
+  left:0;
+  resize: none;
+}
+.signup-desc {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: normal;
+  color: #565656;
+}
+.privacy-checkbox{
+  display: none;
+}
+.privacy-checkbox + label {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background-image: url(./images/cb_untick_small.png);
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  cursor: pointer;
+  text-align: left;
+  align: left;
+}
+.privacy-checkbox:checked + label {
+  background-image: url(./images/cb_tick_small.png);
+}
+.privacy-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #0070D3;
+  font-family: Verdana;
+  background-color: transparent;
+  text-decoration: none;
+}
+.privacy-link:hover {
+  text-decoration: underline;
+  color:#0070d3;
+}
+.signup-btn-disabled {
+  display: block;
+  cursor: default;
+  width: 260px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+  color: #888888;
+  background-color: #F5F5F5;
+  border-top: 1px solid #D3D3D3;
+  border-left: 1px solid #D3D3D3;
+  border-right: 1px solid #D3D3D3;
+  border-bottom: 1px solid #D3D3D3;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+.signup-btn-active {
+  display: block;
+  cursor: pointer;
+  width: 260px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  border-top: 1px solid #A2BB9B;
+  border-left: 1px solid #A2BB9B;
+  border-right: 1px solid #A2BB9B;
+  border-bottom: 1px solid #579C41;
+  background-color: #50B432;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+.signup-btn-active:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 211, 0);
+  box-shadow: rgb(87, 156, 65) 0px 1px 3px 0px;
+}
+/* Error Modal */
+.error-modal-signup{
+  z-index: 100;
+  position: fixed;
+  width: 397px;
+  padding: 10px 10px;
+  right: -3px;
+  margin-top: 20px;
+  background-color: #f6f7f9;
+  border: 1px solid red;
+  font-family: "verdana";
+  font-size: 12px;
+  color: #000;
+  border-radius: 5px;
+  border-left: 3px solid red;
+  box-shadow: 0px 1px 20px  #a83246;
+}
+.error-modal-signup::before{
+  content:"Alert";
+  top:-14px;
+  padding-left: 7px;
+  padding-right: 7px;
+  align-items: center;
+  display: flex;
+  height: 20px;
+  background-color: rgb(241, 11, 61);
+  position: absolute;
+  color: #fff;
+  font-family: "verdana";
+  font-weight: bold;
+  border-radius: 3px;
+}
+.error-modal-signup span::before{
+  content: "\f105";
+  color: #000;
+  font-family: "FontAwesome";
+  font-weight: bold;
+  margin-right: 5px;
+}
+@media(max-width: 768px){
+  #signup-wrapper{
+    width: 100%;
+  }
+  .error-modal-signup{
+    width: 97%;
+  }
+}

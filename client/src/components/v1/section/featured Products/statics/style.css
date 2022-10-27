@@ -1,0 +1,169 @@
+#INDEX_INNER_CONTAINER{
+    text-align:left;
+    margin: 0px auto;
+    padding:0px;
+    width: 1000px;
+  }
+  #INDEX_ADS_TOP{
+    width:100%;
+    float:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:0px solid blue;
+    text-align:center;
+    box-sizing: border-box; 
+  }
+  #INDEX_CONTENT_MAIN{
+    float:left;
+    padding-left:9px;
+    padding-right:9px;  
+    padding-bottom:10px;  
+    margin:0px;
+      zoom: 1;
+  
+    max-width:680px;
+    width:100%;
+    display:block;
+    box-sizing: border-box;
+    
+    border:0px solid black;
+  }
+  .HOMEPAGE_CONTENT_MAIN_SECTION_TITLE{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bolder ;
+    color: #565656;
+    padding-bottom:5px;
+  }
+  .FEATURED_PRODUCT_MAIN_SCROLLER_BORDER{
+    width:660px;
+    height:400px; 
+    overflow:hidden;
+    box-sizing:border-box;
+    border:0px solid black;
+  }
+  .FEATURED_PRODUCT_MAIN_SCROLLER{overflow:hidden;}
+  .FEATURED_PRODUCT_MAIN_ITEM{
+    width:210px;
+    margin:0px 10px 10px 0px;
+    float:left;
+  }
+  .FEATURED_PRODUCT_MAIN_ITEM a{
+    text-decoration: none;
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER{
+    background-color:#FFFFFF; 
+    padding:5px;
+    border:0px solid fuchsia;
+    position:relative; 
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER:hover{background-color:#FFE4A3;cursor:pointer;}
+  .FEATURED_PRODUCT_MAIN_PIC{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:194px;
+    background-color:#FFFFFF; 
+    height:150px;
+    display:block;
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER:hover .FEATURED_PRODUCT_MAIN_BORDER_OVERLAY{ display: block; }
+  .FEATURED_PRODUCT_MAIN_BORDER_OVERLAY{ 
+    position: absolute; 
+    top: 0; left: 0; right:0; bottom:0;
+    display: none; 
+    background-color: rgba(255,228,163,0.5); 
+    width:inherit;
+    height:inherit;
+    padding:inherit;
+    margin:inherit; 
+  }
+  
+  .FEATURED_PRODUCT_MAIN_BORDER .LTAG{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #565656;
+    width:196px;
+    padding-top:0px;
+    height:14px;
+    padding-bottom:2px;
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER .TAG{
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #888888;
+    float:left;
+    display:block;
+    height:10px;  
+    line-height:10px;
+    padding-top:2px;
+    padding-top:3px;  
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER .PRICE{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #F26D00;
+    display:block;
+    float:right;
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER .PRICE .CURRENCY{
+    font-family: Verdana;
+    font-size: 8px;
+    font-weight: normal;
+    color: #F26D00; 
+  }
+  .FEATURED_PRODUCT_MAIN_BORDER .LTAG {
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #565656;
+    width: 196px;
+    padding-top: 0px;
+    height: 14px;
+    padding-bottom: 2px;
+  }
+  .trim-oneline, .TRIM-ONELINE {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -icab-text-overflow: ellipsis;
+    -khtml-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+  }
+  @media only screen and (max-width: 600px) {
+    #INDEX_CONTENT_MAIN{padding:0px;border:0px solid blue;}
+    #INDEX_CONTENT_RIGHT{margin-top:15px;}
+    .HOMEPAGE_CONTENT_MAIN_SECTION_TITLE{
+      padding:0px 5px 0px 5px;
+    }
+    .HOMEPAGE_CONTENT_BOTTOM_SECTION_INNER{width:100%;}
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    .FEATURED_PRODUCT_MAIN_ADS{
+      position:relative;
+      width:100%;
+      box-sizing:border-box;  
+      height:218px;
+      background-color:#F6ECE3;
+      border-top:1px solid #DED4CB;
+      border-bottom:1px solid #DED4CB;
+      padding:10px 0px 10px 0px;
+    } 
+    .FEATURED_PRODUCT_MAIN_SCROLLER_BORDER{width:100%;height:194px;}
+    .FEATURED_PRODUCT_MAIN_SCROLLER{
+      width:100%;
+      overflow:scroll;
+      overflow-y:hidden;
+      height:210px; 
+      -webkit-overflow-scrolling: touch;
+    }
+    .FEATURED_PRODUCT_MAIN_CONTAINER{width:1320px;}
+  
+  }  

@@ -1,0 +1,104 @@
+.privacy-wrapper{
+    width: 1000px;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 25px;
+}
+#privacy-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #565656;
+}
+.privacy-wrapper p{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+}
+#privacy-links-wrapper{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 5px;
+}
+.privacy-statement-links{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding:20px;
+}
+.privacy-statement-links div:first-child{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+
+}
+.privacy-statement-links ol li {
+    font-family: "verdana";
+    color: #565656;
+}
+.privacy-statement-links ol li a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0070D3;
+    font-family: Verdana;
+    background-color: transparent;
+    text-decoration: none;
+}
+.privacy-statement-links ol li a:hover{
+    text-decoration: underline;
+}
+.privacy-sections{
+    margin-top:70px;
+}
+.privacy-sections p{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #444;
+}
+.privacies-statements{
+    margin-bottom: 20px;
+}
+.privacies-statements div:first-child{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+.privacies-statements div:nth-child(2){
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+}
+.backtToTop a{
+    cursor: pointer;
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0070D3;
+    font-family: Verdana;
+    text-decoration: none;
+    background-color: transparent;
+}
+.backtToTop a:hover{
+    text-decoration: underline;
+}
+@media(max-width: 768px){
+    .privacy-wrapper{
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

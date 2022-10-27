@@ -1,0 +1,122 @@
+#profile-buyingleads-container{
+    width: 100%;
+    background-color: #F7DEC7;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+#pbl-title{
+    padding-top: 20px;
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #565656;
+    width: 1040px;
+    margin: 0px auto;
+}
+.p-buyingleads-wrapper{
+    width: 1050px;
+    margin: 0px auto;
+}
+#buyingleads-rfq-container{
+    position: relative;
+}
+.bl-rfq-w{
+    margin: 5px;
+    float: left;
+    opacity: 1; 
+    width: 246.25px; 
+    height: 104.56px; 
+    top: 0px; 
+    left: 0px; 
+    transition: top 0.5s ease 0s, left 0.5s ease 0s;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.bl-rfq-w:hover{
+    box-shadow: 0px 0px 3px 0px #FFB200;
+    background-color:#FFE4A3; 
+    cursor: pointer;
+}
+.buyinglead-icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255); 
+    display: block;
+    position:absolute;
+    z-index:10;
+    top:0;
+    left:0;
+    background: url('./images/icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bl-rfq-w span{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #565656;
+}
+.sm{
+    font-size: 1px;
+}
+#pbl-btn{
+    width: 1050px;
+    margin: 0px auto;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding-right: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pbl-btn a{
+	display: block;
+	cursor: pointer;
+	width: 130px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	white-space: nowrap;
+	color: #565656;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	border-bottom: 1px solid #A8A8A8;
+	background-color: #ffffff;
+	border-radius: 5px;
+	-webkit-appearance: none;
+}
+#pbl-btn a:hover{
+    box-shadow: 0px 1px 3px 0px rgb(168, 168, 168);
+    background-color: rgb(255, 228, 168);
+}
+@media(max-width: 768px){
+    .p-buyingleads-wrapper{
+        width: 100%;
+    }
+    .buyingleads-rfq-container{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #pbl-btn{
+        display: none;
+    }
+    #pbl-title{
+        padding-left: 10px;
+    }
+}

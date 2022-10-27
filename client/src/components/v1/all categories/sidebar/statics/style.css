@@ -1,0 +1,204 @@
+.bc-right-sidebar{
+    width: 22%;
+    margin-left: 10px;
+    margin-top: 19px;
+    float: right;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+.bc-right-sidebar table a{
+    text-decoration: none;
+}
+.bc-right-sidebar-container{
+    padding-bottom: 10px;
+}
+.bc-right-sidebar-wrapper{
+    background-color:#ffffff; 
+    padding:10px;
+    position:relative;  
+    border:0px solid #ffffff;
+}
+.bc-right-sidebar-wrapper:hover{
+    background-color:#FFE4A3;   
+    cursor:pointer;
+}
+.bc-rightsidebar-label{
+    background-color: #f9a966;
+    background-repeat:repeat;
+    background-position:top left;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    float:left;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    position:absolute;
+    z-index:2;
+    top:0px;
+    left:0px;
+}
+.bc-rightsidebar-pic{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:280px;
+    background-color:#ffffff; 
+    height:215px;
+}
+.bc-rightsidebar-overlay{
+    position: absolute; 
+    top: 0; left: 0; right:0; bottom:0;
+    display: none; 
+    background-color: rgba(255,228,163,0.5); 
+    width:inherit;
+    height:inherit;
+    padding:5px;
+    margin:inherit;
+}
+.bc-right-sidebar-wrapper:hover .bc-rightsidebar-overlay{
+    display: inline-block;
+}
+.bc-rightsidebar-tag{
+    text-decoration:none;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    width:270px;
+    padding-top:5px;
+    height:28px;  
+    line-height:15px;
+    padding-bottom:2px;
+    overflow:hidden;
+}
+.bc-tag{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #565656;
+    float:left;
+    display:block;
+    border:0px solid orange;
+    padding-top:2px;
+}
+.bc-price{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F26D00;
+    display:block;
+    float:right;
+    border:0px solid orange;
+}
+.bc-currency{
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: #F26D00; 
+}
+@media(max-width: 768px){
+    .bc-right-sidebar{
+        display: none;
+    }
+}
+/* Buying Leads */
+.bl-wrapper{
+    text-decoration: none;
+}
+.bl-container{
+    background-color: #FFFFFF;
+    width: 104%;
+    height: 117px;
+    border: 0px solid black;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-image: url(./images/quality.png);
+    background-position:100% 0%;
+    background-repeat:no-repeat
+}
+.bl-label{
+    background-color: #76c55f;
+    background-repeat: repeat;
+    background-position: top left;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.bl-image{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 50px;
+}
+.bl-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(255,228,163,0.5);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;    
+}
+.bl-container:hover .bl-overlay{
+    display: inline-block;
+}
+.bl-tag{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 7px;
+    height: 50px;
+    border: 0px solid purple;
+    padding-bottom: 2px;
+    overflow: hidden;
+    text-shadow: 0px 0px 3px #FFFFFF;
+}
+.bl-info{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #888888;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.bl-enquiry{
+    
+  background-color: #50B432;
+  height: 30px;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffff;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+}

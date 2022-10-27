@@ -1,0 +1,105 @@
+.home-testimonial{
+    background-color: #f8d7ba;
+    width: 100%;
+    min-height: 390px;
+    padding-top:40px;
+    padding-bottom:30px;
+}
+.home-testimonial-container{
+    margin: 0px auto;
+    padding:0;
+    text-align: center;
+}
+.home-testimonial-container span{
+    font-size: 26px;
+    font-family: "verdana";
+    font-weight: bold;
+    color:#565656;
+}
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 210px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: left;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 14px;
+    padding-bottom: 15px;
+}
+.image-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 88px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    border:1px solid red;
+    margin-top:-50px;
+    margin-bottom:40px;
+    box-shadow: 0 0 8px #888;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
+.img-text .msg{
+    width: 100%;
+    font-family: "verdana";
+    font-size: 16px;
+    color: #565656;
+    font-weight: 500;
+    height: 120px;
+    padding-left:10px;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+.lead{
+    font-family: "verdana";
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.com{
+    color: #5670af;
+}
+.com:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.home-testimonial-footer{
+    margin: 0px auto;
+    padding:0;
+    text-align: center;
+    margin-top: 20px;
+}
+.home-testimonial-footer a{
+    font-size: 16px;
+    font-family: "verdana";
+    font-weight: normal;
+    color:#0070d3;
+}
+
+.home-testimonial-footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media(max-width: 1024px){
+    
+.single-box{
+    margin-top: 60px;
+}
+}

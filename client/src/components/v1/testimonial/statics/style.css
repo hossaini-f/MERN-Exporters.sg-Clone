@@ -1,0 +1,88 @@
+.testimonial-wrapper{
+    width: 100%;
+    justify-content: center;
+}
+#testimonial-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #565656;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+.testimonial-container{
+    background-color: #f7e5d5;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.testimonial-section-title{
+    font-family: "verdana";
+    font-size: 20px;
+    color: #444;
+    font-weight: bolder;
+    padding-top:60px;
+}
+.testimonila-items-wrapper{
+    width: 980px;
+    display: inline-block;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+.testimonial-items{
+    width: 280px;
+    height: 190px;
+    background-color: #fff;
+    text-align: left;
+    padding: 5px 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: table;
+    float: left;
+}
+.testimonial-items .testimonial-msg{
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    color: #565656;
+}
+.testimonial-company a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0070D3;
+    font-family: Verdana;
+    background-color: transparent;
+}
+.testimonial-company a:hover{
+    text-decoration: underline;
+    color: #0070d3;
+    cursor: pointer;
+}
+.testimonial-country span{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+}
+@media(max-width: 768px){
+    .testimonial-items{
+        width: 90%;
+        height: auto;
+        display: block;
+        float: none;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+    .testimonila-items-wrapper{
+        width: 100%;
+    }
+}

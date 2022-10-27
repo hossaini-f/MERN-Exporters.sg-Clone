@@ -1,0 +1,40 @@
+// Authentication
+export const AUTH = "AUTH" ;
+export const LOGOUT = "LOGOUT" ;
+export const ERROR = "ERROR" ;
+
+// Member Profile
+export const BASICINFO = "BASICINFO";
+export const ADVANCEINFO = "ADVANCEINFO";
+export const INSTANTMESSAGING = "INSTANTMESSAGING";
+export const ACCOUNTINFO = "ACCOUNTINFO";
+
+// Selling Proudcts
+export const GETCATEGORIES = "GETCATEGORIES";
+export const SELLINGPRODUCTS = "SELLINGPRODUCTS";
+export const SEARCHMARKET = "SEARCHMARKET";
+
+// Buying Products
+export const BUYINGLEAD = "BUYINGLEAD";
+export const SINGLEBUYINGLEAD = "SINGLEBUYINGLEAD";
+
+// Feeds Information
+export const FEEDSBUYINGLEAD = "FEEDSBUYINGLEAD";
+export const FEEDSSELLING = "FEEDSSELLING";
+export const ALLMEMBERCATEGORIES = "ALLMEMBERCATEGORIES";
+export const FEEDSALLCATEGORY = "FEEDSALLCATEGORY";
+export const FEEDSMEMBER = "FEEDSMEMBER";
+
+// Public -> HomePage
+export const HOMELATESTPRODUCTS = "HOMELATESTPRODUCTS";
+export const HOMEFEATUREDPRODUCTS = "HOMEFEATUREDPRODUCTS";
+export const HOMEFEATUREDMEMBER = "HOMEFEATUREDMEMBER";
+export const HOMELOGS = "HOMELOGS";
+export const HOMECATEGORY = "HOMECATEGORY";
+export const HOMETOPMEMBER = "HOMETOPMEMBER";
+export const BROWSECATEGORY = "BROWSECATEGORY";
+export const SINGLEPRODUCTINFO = "SINGLEPRODUCTINFO";
+
+// Inbox
+export const SENDMESSAGE = "SENDMESSAGE";
+export const GETEMAIL = "GETEMAIL";

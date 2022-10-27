@@ -1,0 +1,240 @@
+.plan-premium-wrapper{
+    justify-content: center;
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+#plan-premium-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #111;
+    padding:20px;
+}
+.plan-premium-container{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+.plan-premium-container .premium-section-title b{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #565656;
+}
+.plan-premium-container .premium-section-title {
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: normal;
+	color: #565656;
+    padding:10px;
+    margin: 0px auto;
+}
+.plan-premium-exprience{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.plan-premium-exprience table:first-child tr td .plan-premium-user{
+    display: flex;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.plan-premium-exprience table:first-child tr td .plan-premium-user div:first-child img{ width: 90px;}
+.plan-premium-exprience table:first-child tr td .plan-premium-user div:first-child{
+    width: 90px;
+    height: 90px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: cover;
+    margin-right: 10px;
+    background-image: url(./images/border.png);
+}
+.plan-premium-exprience table:first-child tr td .plan-premium-user div:nth-child(2) p{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+    font-style: italic;
+    margin-top: 0px;
+}
+.plan-premium-exprience table:first-child tr td .plan-premium-user div:nth-child(2) a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0070D3;
+    font-family: Verdana;
+    background-color: transparent;
+    cursor: pointer;
+}
+.plan-premium-exprience table:first-child tr td .plan-premium-user div:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+.plan-premium-user{
+    margin-bottom:20px;
+    padding-left:30px;
+    box-sizing:border-box;
+    display: inline-block;
+    text-align: center;
+}
+.plan-premium-single-user{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255); 
+    display: block; 
+    border: 1px solid #d3d3d3;
+    width: 90px;
+    height: 90px;
+    float: left;
+    border: 1px solid salmon;
+    background-image: url(./images/border.png);
+}
+.plan-premium-single-user img{
+    width: 90px;
+}
+.plan-premium-table-1{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    margin-top: 10px;
+}
+.plan-premium-table-1 tr td{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.plan-premium-table-1 tr td b{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #444;
+}
+.plan-premium-table-1 tr td span{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #565656;
+}
+.plan-premium-table-2{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    margin-top: 10px;
+}
+.plan-premium-table-2 tr td{
+    width: 33%;
+    padding-bottom: 20px;
+}
+.plan-premium-table-2 tr td b{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #444;
+}
+.plan-premium-table-2 tr td span{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #565656;
+}
+#plans-pricing-btn a{
+    display: block;
+    cursor: pointer;
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+#plans-pricing-btn a:hover{
+    color: #fff;
+    background-color: rgb(155, 211, 0);
+    box-shadow: rgb(87, 156,65) 0px 1px 3px 0px;
+}
+.plan-premium-table-3{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    margin-top: 10px;
+}
+.plan-premium-table-3 tr td{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.plan-premium-table-3 tr td b{
+    font-family: "verdana";
+    font-size: 14px;
+    color: #444;
+}
+.plan-premium-table-3 tr td span{
+    font-family: "verdana";
+    font-size: 14px;
+    color: #565656;
+}
+#broadcast{
+    background-color: #50b432;
+    padding:2px;
+    color: #fff;
+}
+#premium-contact-btn a{
+    color: #0070D3;
+    cursor: pointer;
+}
+#premium-contact-btn a:hover{
+    text-decoration: underline;
+}
+@media(max-width: 768px){
+    .plan-premium-wrapper{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .plan-premium-container{
+        width: 90%;
+    }
+    .plan-premium-exprience{
+        width: 100%;
+    }
+    .plan-premium-exprience table:first-child{
+        width: 100%;
+    }
+    .plan-premium-exprience table:first-child tr td{
+        display: block;
+        width: 100%;
+        padding:0px;
+    }
+    .plan-premium-table-1 tr td,
+    .plan-premium-table-2 tr td,
+    .plan-premium-table-3 tr td{
+        width: 100%;
+        display: block;
+    }
+}

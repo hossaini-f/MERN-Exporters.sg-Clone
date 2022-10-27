@@ -1,0 +1,374 @@
+.getquote-container{
+    margin-top:0px;
+    border-top:1px solid #D9D9D9; 
+    border-bottom:1px solid #D9D9D9;
+    padding-top:0px;
+    padding-right: 10px;
+    box-sizing:border-box;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding-left: 175px;
+    height: 205px;
+}
+.get-quote-img img{
+    width: 250px;
+    height: 205px;
+}
+.getquote-direction{
+    width: auto;
+    padding-left: 20px;
+    padding-top:15px;
+}
+#getquote-title{   
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #565656;
+}
+
+#getquote-title p{   
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #565656;
+}
+.getquote-step{
+    display: flex;
+    padding-top:1px;
+    padding-bottom: 3px;
+}
+
+.getquote-step .img-1-desc,.img-2-desc,.img-3-desc{
+    padding-left: 10px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    padding-top:6px;
+}
+/* Form */
+.getquote-form-container{
+    width: 100%;
+    background-color: #f6f1ec;
+    display: block;
+    margin-bottom:20px;
+}
+.getquote-form-login-btn{
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    margin-right: 200px;
+    padding-bottom: 10px;
+}
+.get-quote-form-desc{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+    padding-right: 5px;
+    padding-top:7px;
+}
+.getquote-form-link a{
+    display: block;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 200px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #FE7D0B;
+    border-top: 1px solid #CBAC91;
+    border-left: 1px solid #CBAC91;
+    border-right: 1px solid #CBAC91;
+    border-bottom: 1px solid #CF7626;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}     
+
+.getquote-form-link a:hover{
+    color: #fff;
+    background-color: rgb(254, 210, 11);
+    box-shadow: rgb(207, 118,38) 0px 1px 3px 0px;
+}
+.gq-form-wrapper{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.getquote-form{
+    margin: 0px auto;
+    width: 100%;
+    align-items: center;
+}
+.getquote-form form{
+    width: 38%;
+    display: block;
+    margin: 0px auto;
+}
+.hr-title{
+    width: 65%;
+    border-bottom: 1px solid #D9D9D9;
+    padding-top: 10px;
+    margin-left: 5px;
+	height: 1px;
+}
+#textarea{
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #fff;
+    border: solid 1px #CECECE;
+    padding: 5px 10px;
+    width: 75%;
+    height: auto;
+    line-height: inherit;
+    box-sizing: inherit;
+    top: 0px;
+    left: 0px;
+    resize: none;
+}
+#label {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: normal;
+    color: #565656;
+    margin-top:8px;
+}
+#quantity {
+	color: #565656;
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 16px;
+	background-color: #ffffff;
+	border: solid 1px #CECECE;
+	padding: 0px 10px 0px 10px;
+	height: 32px;
+	line-height: 32px;
+	width: 69%;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+#select-unit{
+    cursor: pointer;
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    padding: 5px;
+    height: 32px;
+    width: 30%;
+}
+#delivery-location{
+    margin-top:0px;
+    cursor: pointer;
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    padding: 5px;
+    height: 32px;
+    width: 100%;
+}
+#company-info-title{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+    font-weight: bold;
+}
+.HR {
+	border: 0;
+	color: #D9D9D9;
+	background-color: #D9D9D9;
+	height: 1px;
+}
+.customer-info{
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #fff;
+    border: solid 1px #CECECE;
+    padding: 0px 10px 0px 10px;
+    width: 96%;
+    height: 32px;
+    top: 0px;
+    left: 0px;
+    margin-top: 7px;
+}
+#customer-counter{
+    margin-top:7px;
+    cursor: pointer;
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    padding: 5px;
+    height: 32px;
+    width: 100%;
+}
+
+#verification-info{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+    font-weight: bold;
+}
+.privacy{
+    cursor: pointer;
+}
+#terms-of-use{
+    cursor: pointer;
+    text-decoration: none;
+    color:#0070D3;
+}
+#terms-of-use:hover {
+	text-decoration: underline;
+}
+#post-buying-lead-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#post-buying-lead-btn #btn-disabled{
+    display: block;
+    cursor: default;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #888888;
+    background-color: #F5F5F5;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+#post-buying-lead-btn #btn-active{
+    width: 180px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 180, 50);
+    display: block;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+
+#post-buying-lead-btn #btn-active:hover{
+    background-color: rgb(155, 211, 0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+  @media only screen and (max-width: 768px) {
+    .getquote-container{
+        padding-left: 0px;
+        padding-top:0px;
+        align-items: left;
+        justify-content: left;
+        height: 185px;
+    }
+    #getquote-title{
+        font-size: 14px;
+    }
+    #getquote-title p{
+        font-size: 12px;
+    }
+    .get-quote-img img{
+        display: none;
+    }
+    .getquote-direction{
+        padding-top:9px;
+        padding-left: 5px;
+    }
+    .getquote-step .img-1-desc,.img-3-desc{
+        font-size: 12px;
+        padding-top:6px;
+    }
+    .getquote-step .img-2-desc{
+        padding-top: 0px;
+        font-size: 12px;
+    }     
+      /* Form */
+    .getquote-form-login-btn{
+        justify-content: right;
+        padding-right: 7px;   
+    }
+    .getquote-form-link a{
+        margin-right: 10px;
+    }
+    .getquote-form form{
+        width: 90%;
+    }
+    #textarea{
+        width: 100%;
+    }
+    
+  }
+  @media (max-width: 556px){
+      #quantity{
+          width:68%;
+      }
+  }
+  

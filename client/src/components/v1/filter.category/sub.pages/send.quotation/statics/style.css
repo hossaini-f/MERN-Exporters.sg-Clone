@@ -1,0 +1,296 @@
+.bl-quote-wrapper{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.bl-quote-right-wrapper{
+    display: block;
+}
+.bl-quote-wrapper-left{
+    width: 690px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bl-quote-links{
+    font-size: 14px;
+    color:#0070d3;
+    font-family: "verdana";
+    cursor: pointer;
+}
+.bl-quote-links a{
+    text-decoration: none;
+}
+.bl-quote-links a:hover{
+    text-decoration: underline;
+}
+.bl-quote-links i{
+    color: #000;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.bl-quote-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #565656;
+}
+.bl-quote-wrapper-left table{
+    width: 100%;
+    margin-top: 10px;
+}
+.bl-quote-wrapper-left table tr td:first-child{
+    text-align: right;
+    width: 30%;
+    padding-right: 10px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    padding-bottom: 6px;
+}
+.bl-quote-wrapper-left table tr td:nth-child(2){
+    text-align: left;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+}
+.bl-quote-wrapper-left table tr td:nth-child(2) a{
+    color:#0070d3;
+    cursor: pointer;
+}
+.bl-quote-wrapper-left table tr td:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+.bl-quote-button{
+    width: 97%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.bl-quote-button a{
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin: 0px auto;
+}
+.bl-quote-button a:hover{
+    background-color: rgb(155, 211, 0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+#bl-quote-subs-title{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #565656;
+    font-weight: bold;
+}
+#bl-qoute-subs-desc{
+    font-family: "verdana";
+    font-size: 12px;
+    color: #565656;
+    margin-top: 5px;
+}
+.bl-quote-form-subs label{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+    margin-top: 6px;
+}
+.bl-quote-form-subs  input{
+    color: #565656;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: solid 1px #CECECE;
+    padding: 0px 10px 0px 10px;
+    height: 32px;
+    line-height: 32px;
+    width: 40%;
+    box-sizing: border-box;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.bl-quote-form-subs  button{
+	display: block;
+	cursor: pointer;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+	white-space: nowrap;
+	color: #ffffff;
+	background-color: #50B432;
+	border-top: 1px solid #A2BB9B;
+	border-left: 1px solid #A2BB9B;
+	border-right: 1px solid #A2BB9B;
+	border-bottom: 1px solid #579C41;
+	border-radius: 5px;
+	-webkit-appearance: none;
+    background-color: rgb(80, 180, 50);
+}
+.bl-quote-form-subs  button:hover{
+    background-color: rgb(155, 211, 0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+.bl-quote-wrapper-right{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 280px;
+    height: 230px;
+    margin-left: 10px;
+}
+.bl-quote-wrapper-right div:first-child{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.bl-quote-wrapper-right div:nth-child(2) ul li{
+    margin-left: -17px;
+    font-family: "verdana";
+    font-size: 14px;
+    color: #565656;
+    margin-bottom: 5px;
+}
+.bl-quote-wrapper-right div:nth-child(2) ul li a{
+    color: #0070d3;
+    cursor: pointer;
+}
+.bl-quote-wrapper-right div:nth-child(2) ul li a:hover{
+    text-decoration: underline;
+}
+.bl-quote-wrapper-right div:nth-child(3) a{
+    color: #0070d3;
+    cursor: pointer;
+    font-family: "verdana";
+    font-size: 12px;
+    float: right;
+}
+.bl-quote-wrapper-right div:nth-child(3) a:hover{
+    text-decoration: underline;
+}
+.bl-quote-bottom-container{
+    background-color: #F6ECE3;
+    border-top: 1px solid #DDD8D3;
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.bl-quote-featured-p{
+    margin-right: 10px;
+}
+.bl-quote-right-sidebar-container a{
+    text-decoration: none;
+}
+.bl-quote-right-sidebar-wrapper{
+    background-color:#ffffff; 
+    padding:10px;
+    position:relative; 
+    width: 228px;
+    height: 228px; 
+}
+.bl-quote-right-sidebar-wrapper:hover{
+    background-color:#FFE4A3;   
+    cursor:pointer;
+}
+.bl-quote-rightsidebar-label{
+    background-color: #f9a966;
+    background-repeat:repeat;
+    background-position:top left;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    float:left;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    position:absolute;
+    z-index:2;
+    top:0px;
+    left:0px;
+}
+.bl-quote-rightsidebar-pic{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:280px;
+    background-color:#ffffff; 
+    height:205px;
+}
+.bl-quote-rightsidebar-overlay{
+    position: absolute; 
+    top: 0; left: 0; right:0; bottom:0;
+    display: none; 
+    background-color: rgba(255,228,163,0.5); 
+    width:inherit;
+    height:inherit;
+    padding:5px;
+    margin:inherit;
+}
+.bl-quote-right-sidebar-wrapper:hover .bc-rightsidebar-overlay{
+    display: inline-block;
+}
+.bl-quote-rightsidebar-tag{
+    text-decoration:none;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    width:228px;
+    padding-top:5px;
+    height:28px;  
+    line-height:15px;
+    padding-bottom:2px;
+    overflow:hidden;
+}
+@media(max-width: 768px){
+    .bl-quote-wrapper-left{
+        width: 90%;
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
+    .bl-quote-wrapper{
+        display: block;
+    }
+    .bl-quote-bottom-container{
+        display: none;
+    }
+
+}

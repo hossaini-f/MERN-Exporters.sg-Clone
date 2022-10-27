@@ -1,0 +1,44 @@
+#terms-of-services{
+    width: 1020px;
+    margin: 0px auto;
+}
+#terms-of-services #terms-title{
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #565656;
+    margin-top: 25px;
+}
+#terms-of-services p{
+    background-color: #fff;
+    margin: 0px auto;
+    margin-top:10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+
+}
+#terms-of-services div{
+    margin-bottom: 20px;
+}
+.terms-section-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #565656;
+    margin-bottom:20px;
+}
+#terms-of-services div ol li{
+    margin-bottom: 10px;
+}
+@media(max-width: 768px){
+    #terms-of-services{
+        width: 94%;
+        margin-left:10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,289 @@
+.upgrade-wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#upgrade-title{
+    text-align: center;
+    width: 100%;
+}
+#upgrade-title p:first-child{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #111;
+}
+#upgrade-title p:nth-child(2) {
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bolder;
+    color: #565656;
+    margin-top:-11px;
+}
+.upgrade-main-container{
+    width: 99%;
+    background-color: #fff;
+    margin-top:-10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    height: auto;
+}
+.upgrade-main-container p:first-child{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 30px;
+}
+.upgrade-main-container table{
+    width: 100%;
+}
+.upgrade-main-container table tr:first-child td{
+    padding: 10px 30px;
+    text-align: center;
+    width: 33%;
+}
+.upgrade-main-container table tr:first-child td div:first-child{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #565656;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+.upgrade-main-container table tr td span{
+    font-family: "verdana";
+    font-size: 14px;
+    color: #565656;;
+}
+#upgrade-comment{
+    font-size: 14px;
+    font-weight: normal;
+    padding:0px;
+    font-family: "verdana";
+    font-style: italic;
+    color: #565656;
+    margin-top: 20px;
+}
+
+#upgrade-comment a{
+    text-decoration: none;
+    font-style: normal;
+    color: #0070D3;
+}
+#upgrade-comment a:hover{
+    text-decoration: underline;
+}
+#upgrade-plan-title{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #565656;
+    margin-top: 30px;
+}
+.upgrade-plan{
+    width: 100%;
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upgrade-plans{
+    border:1px solid #d3d3d3;
+    width: 34%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.upgrade-plans:nth-child(2){
+    background-color: #f6f1ec;
+}
+.upgrade-plan-desc{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+}
+.plan-price{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #222;
+}
+.plan-period{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+}
+#plans-permium-btn a{
+    display: block;
+    cursor: pointer;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin: 0px auto;
+}
+#plans-permium-btn a:hover{
+    color: #fff;
+    background-color: rgb(155, 211, 0);
+    box-shadow: rgb(87, 156,65) 0px 1px 3px 0px;
+}
+#plans-plus-btn a{
+    display: block;
+    cursor: pointer;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #565656;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin: 0px auto;
+}
+#plans-plus-btn a:hover{
+    background-color: rgb(255, 228, 163);
+    box-shadow: 0px 1px 3px 0px rgb(168, 168, 168);
+}
+.hr-line-break{
+    border: 0;
+    color: #D9D9D9;
+    background-color: #D9D9D9;
+    height: 1px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.plan-features{
+    height: 560px;
+}
+.plan-features p, .plan-features p:first-child{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+}
+.plan-features a{
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0070D3;
+    font-family: Verdana;
+    background-color: transparent;
+}
+.plan-features a:hover{ 
+    color: #0070d3;
+    text-decoration: underline;
+}
+#upgrade-survey-desc{
+    font-size: 14px;
+    color: #565656;
+    font-family: "verdana";
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.upgrade-table-testimonial{
+    width: 100%;
+}
+.upgrade-table-testimonial tr:nth-child(2) td{
+    padding-top: 15px;
+}
+.upgrade-testimonial-user{
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-left:30px;
+    box-sizing:border-box;
+    display: inline-block;
+    text-align: center;
+}
+.testimonial-single-user{
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255); 
+    display: block; 
+    border: 1px solid rgb(254, 125, 11);
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.testimonial-single-user img{
+    border-radius: 30px;
+    width: 40px;
+    margin-top:2px;
+    z-index: 0;
+}
+@media(max-width: 768px){
+    .upgrade-wrapper{
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 0px auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .upgrade-main-container{
+        width: 100%;
+        margin-top: -10px;
+        margin: 0px auto;
+    }.upgrade-main-container table tr:first-child td{
+        display: block;
+        margin-bottom: 10px;
+        width: 88%;
+    }
+    .upgrade-plan{
+        display: block;
+    }
+    .upgrade-plans{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .upgrade-table-testimonial tr td{
+        width: 100%;
+        display: block;
+    }
+}

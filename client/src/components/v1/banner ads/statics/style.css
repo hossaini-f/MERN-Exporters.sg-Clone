@@ -1,0 +1,117 @@
+.banner-ads-wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#banner-ads-title{
+    text-align: center;
+    width: 100%;
+}
+#banner-ads-title p:first-child{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #111;
+}
+
+.banner-ads-main-container{
+    width: 99%;
+    background-color: #fff;
+    margin-top:-10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    height: auto;
+}
+.banner-ads-main-container p{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 30px;
+}
+.banner-ads-main-container table{
+    width: 100%;
+}
+.banner-ads-main-container table tr td{
+    padding: 10px 20px;
+    text-align: center;
+    width: 33%;
+}
+.banner-ads-main-container table tr td div{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #565656;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+.banner-ads-main-container table tr td span{
+    font-family: "verdana";
+    font-size: 16px;
+    color: #565656;;
+}
+.HiW table tr td img{
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top:-40px;
+}
+#banner-ads-btn a{
+    display: block;
+    cursor: pointer;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+#banner-ads-btn a:hover{
+    color: #fff;
+    background-color: rgb(155, 211, 0);
+    box-shadow: rgb(87, 156,65) 0px 1px 3px 0px;
+}
+@media(max-width: 768px){
+    .banner-ads-wrapper{
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 0px auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .banner-ads-main-container{
+        width: 96%;
+        margin-top: -10px;
+        margin: 0px auto;
+    }.banner-ads-main-container table tr:first-child td{
+        display: block;
+        margin-bottom: 10px;
+        width: 88%;
+    }
+    .HiW table tr td{
+        padding-bottom: 40px;
+    }
+}

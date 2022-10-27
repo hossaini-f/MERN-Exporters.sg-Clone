@@ -1,0 +1,134 @@
+.product-search-wrapper{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #f6ece3;
+}
+.p-s-title-cat{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+    width: 1000px;
+    margin: 0px auto;
+}
+.product-search-container{
+    width: 1000px;
+    display: flex;
+    margin: 0px auto;
+}
+.product-search-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-search-single-p{
+    border: 1px solid #dadce0;
+    background-color: #f6f7f9;
+    width: 170px;
+    height: 160px;
+    margin: 5px;
+}
+.search-product-arrow-left{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 30px;
+    height: 160px;
+    background-color: #fff;
+}
+.search-product-arrow-left::after{
+    content: '';
+    border-left: 1px solid #888;
+    border-bottom: 1px solid #888;
+    width: 20px;
+    height: 20px;
+    top: 290px;
+    left: 186px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.search-product-arrow-right{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 30px;
+    height: 160px;
+    background-color: #fff;
+}
+.search-product-arrow-right::after{
+    content: '';
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    width: 20px;
+    height: 20px;
+    top: 290px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.search-product-arrow-right:hover,
+.search-product-arrow-left:hover{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+.slide-container{
+    display: flex;
+} 
+.slide-active{
+    display: flex;
+}
+.x-hide{
+    display: none;
+}
+.x-show{
+    display: flex;
+}
+.search-prod-brand{
+    padding-top: 20px;
+    width: 1000px;
+    margin:0px auto;
+    font-size: 16px;
+    color: #565656;
+    font-family: "verdana";
+}
+.search-prod-brand span{
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    line-height: 25px;
+    min-width: 58px;
+    text-align: center;
+}
+@media(max-width: 768px){
+    .search-product-arrow-right,
+    .search-product-arrow-left{
+        display: none;
+    }
+    .product-search-container{
+        width: 100%;
+    }
+    .product-search-options{
+        width: 100%;
+        overflow: scroll;
+        display: flex;
+        padding: 10px;
+        padding-left: 450px;
+        
+    }
+    .product-search-single-p:last-child{
+        -webkit-overflow-scrolling: touch;
+        margin-right: 20px;
+    }
+    .search-prod-brand{
+        display: none;
+    }
+    .p-s-title-cat{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+}

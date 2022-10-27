@@ -1,0 +1,278 @@
+#cp-container{
+    width: 100%;
+    background-color: #F8D7BA;
+    border-top: 1px solid #E4C3A6;
+    justify-content: center;
+    padding-top: 20px;
+}
+#cp-title{
+    width: 1040px;
+    margin: 0px auto;
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+
+}
+.cp-wrapper{
+    width: 1040px;
+    margin: 0px auto;
+}
+#cp-info-d{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 20px 22px 0px;
+    width: 313px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    height: 365px;
+    border-radius: 5px;
+}
+#cp-info-d table tr td span:first-child{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+}
+#cp-info-d table tr td span{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #444;
+}
+#cp-info-d div:first-child{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    color: #565656;
+    margin-bottom: 10px;
+}
+#cp-info-d table tr td{
+    padding-bottom: 10px;
+}
+#cp-contact-d{
+    border: 0px solid fuchsia;
+    position: relative;
+    display: inline-table;
+    padding: 10px;
+    margin: 0px 20px 22px 0px;
+    width: 313px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 2px solid #C59B21;
+    height: 365px;
+    border-radius: 5px;
+}
+#cp-contact-d div:first-child{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    z-index: 2;
+    top: -19px;
+    left: 5px;
+    background-color: #C59B21;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#cp-contact-d table tr td span{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+}
+#cp-contact-d table tr td a{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    background-color: #50B432;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+#cp-contact-d table tr td{
+    padding-bottom: 10px;
+}
+#cp-contact-d table tr td a:hover{
+    background-color: rgb(155, 211, 0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+#cp-message-d{
+    margin: 0px;
+    padding: 15px;
+    border: 0px;
+    width: 980px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#cp-message-d > div:first-child{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight:bold;
+    color: #333;
+    width: 100%;
+}
+#cp-m-dw{
+    display: flex;
+    padding-top: 10px;
+}
+#cp-m-dw > div:first-child{
+    background-image: url(./images/alt_profile.png);
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 154px;
+    height: 154px;
+    cursor: default;
+    position: relative;
+    border: 1px solid #C8C8C8;
+    padding: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+#cp-m-dw > div:nth-child(2) span{
+    font-size: 16px;
+    font-family: "verdana";
+    color: #565656;
+    margin-left: 10px;
+}
+#cp-m-dw > div:nth-child(2) a{
+    display: block;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #50B432;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#cp-m-dw > div:nth-child(2) a:hover{
+    background-color: rgb(155, 211, 0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+#cp-b-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1000px;
+    display: flex;
+    justify-content: right;
+}
+#cp-b-btn div{
+    display: inline-block;
+}
+#cp-b-btn div a{
+    display:block;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #565656;
+    background-color: #FFFFFF;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin-left: 7px;
+}
+#cp-b-btn div a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 228, 163);
+    box-shadow: 0px 1px 3px 0px rgb(168, 168, 168);
+}
+#cp-b-btn > div:last-child a{
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(193, 0, 0);
+    border: none;
+}
+#cp-b-btn > div:last-child a:hover{
+    box-shadow: 0px 1px 3px 0px rgb(112, 5, 5);
+    background-color: rgb(255, 64, 64);
+}
+@media(max-width: 768px){
+    #cp-container{
+        display: block;
+    }
+    #cp-title,
+    .cp-wrapper{
+        width: 100%;
+        padding-left: 10px;
+    }
+    #cp-message-d,
+    #cp-contact-d,
+    #cp-info-d{
+        width: 95%;
+        height: auto;
+    }
+    #cp-b-btn{
+        width: auto;
+        display: inline-block;
+        text-align: right;
+        padding-right: 20px;
+    }
+    #cp-b-btn div a{
+        margin-bottom: 7px;
+    }
+}

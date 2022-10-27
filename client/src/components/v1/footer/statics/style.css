@@ -1,0 +1,114 @@
+#footer{
+    background-color: #f6f1ec;
+	float:left;
+	clear: both;
+	position:relative;
+	text-align: left;
+	padding: 0px;
+	margin-top:0px;
+    width:100%;
+}
+.container{
+	max-width:1030px;
+    width:100%;
+	padding:30px 5px 30px 5px;
+}
+.footer-section{
+	float:left;
+	display:inline-block;
+	width:auto;
+	margin:2px 32px 2px 2px;
+	white-space:nowrap;
+    border:0px solid black;
+    font-family: "verdana";
+}
+.footer-section .footer-title{
+	color:#51473E;
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-section .footer-link{
+    color:#51473E;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer-section .footer-title:hover, .footer-link:hover{
+    text-decoration: underline;
+}
+.mobile-app-image{
+    /* background-image:url(./images/app.png); */
+    background-position:left top;
+    background-repeat:no-repeat;
+    width:160px;
+    height:54px;
+}
+.privacy{
+    width:100%;
+    padding:5px;
+    display:inline-block;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: "verdana";
+}
+.privacy .privacy-link{
+    text-decoration: none;
+    color: blueviolet;
+}
+.privacy .privacy-link:hover{
+    text-decoration: underline;
+    color: rgb(83, 7, 155);
+}
+.download-app{
+    display:none;
+}
+@media only screen and (max-width: 600px) {
+	.container{
+		width:100%	
+	}
+	.footer-section{
+		display:inline-block;
+		width:48%;
+		height:30px;
+		line-height:30px;
+		border:1px solid #606060;
+		box-sizing: border-box;	
+		border-radius:3px;
+		text-align:center;
+		margin:2px;
+	}
+	.footer-section .footer-title{
+		display:block;
+		height:30px;
+		line-height:30px;
+		text-decoration:none;
+		border-radius:3px;	
+		font-size:10px;		
+	}
+	.footer-section .footer-title:hover{
+		background-color:#A89381;
+        width:100%;
+        text-decoration: none;
+		box-sizing: border-box;		
+	}
+	
+	.footer-section .footer-link{
+		display:none;
+	}
+
+	.footer-section .T2{
+		display:block;
+		height:30px;
+		line-height:30px;
+		text-decoration:none;
+		border-radius:3px;	
+		font-size:10px;		
+    }
+    .mobile-app-image{
+        display: none;
+    }
+	.download-app{
+        display:inline-block;
+    }
+}

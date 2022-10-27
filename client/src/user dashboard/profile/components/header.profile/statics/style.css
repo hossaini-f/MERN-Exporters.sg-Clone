@@ -1,0 +1,262 @@
+.profile-header-container{
+    width: 100%;
+    background-image: url('./images/header_cover.png');
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    background-position: bottom left;
+}
+.profile-visited-link{
+    width: 100%;
+    background-color: #505050;
+}
+.profile-visited-link div:first-child{
+    font-family: "verdana";
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 1020px;
+    margin: 0px auto;
+}
+.profile-visited-link div:first-child a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.profile-visited-link div:first-child a:hover{
+    text-decoration: underline;
+}
+.profile-visited-link div:first-child i{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#profile-about{
+    width: 100%;
+    max-width: 1000px;
+}
+#profile-image{
+    background-color: #fff;
+    display: block; 
+    border: 1px solid rgb(182, 114, 0);
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width: 154px;
+	height: 154px;
+	cursor: default;
+	position: relative;
+	padding: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+    margin-bottom: 10px;
+}
+#profile-company{
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.profile-de{
+    color: #fff;
+    font-family: "verdana";
+    font-size: 14px;
+}
+#m-s{
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+
+}
+#profile-send-msg-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 180, 50);
+    display: block;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #50B432;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+#profile-send-msg-btn:hover,
+#profile-send-msg-mbtn:hover{
+    background-color: rgb(155,211,0);
+    box-shadow: 0px 1px 3px 0px rgb(87, 156, 65);
+}
+#profile-send-order-btn{
+    display: block;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #565656;
+    background-color: #FFFFFF;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin-left: 10px;
+}
+#profile-send-order-btn:hover,
+#profile-send-order-mbtn:hover{
+    background-color: rgb(255, 228, 163);
+    color: #111;
+    box-shadow: 0px 1px 3px 0px rgb(168, 168, 168);
+}
+/* Profile Mobile View */
+#profile-mobile{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #fff;
+    display: none;
+}
+#profile-mobile div span:first-child{
+    font-family: "verdana";
+    font-size: 18px;
+    color: #333;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#profile-mobile div:nth-child(2) img{
+    padding-left: 10px;
+    display: block;
+}
+#p-m-des{
+    font-family: "verdana";
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+}
+#profile-mobile div:first-child img{
+    background-color: #fff;
+    display: block; 
+    border: 1px solid rgb(182, 114, 0);
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width: 90px;
+	height: 90px;
+	cursor: default;
+	position: relative;
+	padding: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+    margin-bottom: 10px;
+}
+#profile-mobile-desc{
+    display: none;
+    padding: 10px 10px;
+    background-color: #f6f1ec;
+}
+#m-a-d{
+    color: #333;
+    font-size: 14px;
+    font-family: "verdana";
+    font-weight: normal;
+}
+#m-a-h{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #333;
+    font-family: "verdana";
+}
+#profile-send-order-mbtn{
+    cursor: pointer;
+    width: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #565656;
+    background-color: #FFFFFF;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #A8A8A8;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin-left: 7px;
+}
+#profile-send-msg-mbtn{
+    cursor: pointer;
+    width: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #565656;
+    color: #ffffff;
+    background-color: #50B432;
+    border-top: 1px solid #A2BB9B;
+    border-left: 1px solid #A2BB9B;
+    border-right: 1px solid #A2BB9B;
+    border-bottom: 1px solid #579C41;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    margin-left: 10px;
+
+}
+@media(max-width: 768px){
+    .profile-header-container{
+        display: none;
+    }
+    #profile-mobile{
+        display: flex;
+    }
+    #profile-mobile-desc{
+        display: block;
+    }
+}

@@ -1,0 +1,90 @@
+.FEATURED_MEMBER_MAIN_SCROLLER_BORDER{
+    width:665px;
+    height:400px; 
+    overflow:hidden;  
+    box-sizing:border-box;
+    border:0px solid black;
+  }
+  .FEATURED_MEMBER_MAIN_SCROLLER{overflow:hidden;}
+  .FEATURED_MEMBER_MAIN_CONTAINER{}
+  .FEATURED_MEMBER_MAIN_ITEM{
+    width:210px;
+    margin:0px 10px 10px 0px;
+    float:left;
+  }
+  .FEATURED_MEMBER_MAIN_ITEM a{
+    text-decoration: none;
+  }
+  .FEATURED_MEMBER_MAIN_BORDER{
+    background-color:#FFFFFF; 
+    padding:5px;
+    border:0px solid fuchsia;
+    position:relative; /* required for Overlay */
+  }
+  .FEATURED_MEMBER_MAIN_BORDER:hover{background-color:#FFE4A3;cursor:pointer;}
+  .FEATURED_MEMBER_MAIN_PIC{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:198px;
+    background-color:#FFFFFF; 
+    height:184px;
+    display:block;
+  }
+  .FEATURED_MEMBER_MAIN_BORDER:hover .FEATURED_MEMBER_MAIN_BORDER_OVERLAY{ display: block;}
+  .FEATURED_MEMBER_MAIN_BORDER_OVERLAY{ 
+    position: absolute; 
+    top: 0; left: 0; right:0; bottom:0;
+    display: none; 
+    background-color: rgba(255,228,163,0.5); 
+    width:inherit;
+    height:inherit;
+    padding:inherit;
+    margin:inherit; 
+  }
+  
+  .FEATURED_MEMBER_MAIN_PIC table{
+    height:184px;
+    width:100%;
+    border:0px solid blue;
+  }
+  .FEATURED_MEMBER_MAIN_PIC table div{
+    background-color:#ffffff;
+    opacity:0.92;
+    padding:2px 0px 2px 0px;
+  }
+  
+  .FEATURED_MEMBER_MAIN_PIC table div span{ 
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    color: #565656;
+  }
+  @media only screen and (max-width: 600px) {
+    .FEATURED_MEMBER_MAIN_ADS{
+      position:relative;
+      width:100%;
+      box-sizing:border-box;  
+      height:220px;
+      background-color:#F6ECE3;
+      border-top:1px solid #DED4CB;
+      border-bottom:1px solid #DED4CB;
+      padding:10px 0px 10px 0px;
+    }
+    .FEATURED_MEMBER_MAIN_SCROLLER_BORDER{
+      overflow:hidden;  
+      box-sizing:border-box;
+      border:0px solid black;   
+      width:100%;
+      height:194px;  
+      -webkit-overflow-scrolling: touch;    
+    }
+    .FEATURED_MEMBER_MAIN_SCROLLER{
+      width:100%;
+      overflow:scroll;
+      overflow-y:hidden;
+      height:210px;
+    }
+    .FEATURED_MEMBER_MAIN_CONTAINER{width:1320px;}  
+    
+  
+  }

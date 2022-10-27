@@ -1,0 +1,207 @@
+#fp-firts-banner{
+    background-image: url(./images/header.png);
+    background-color: #FF9D4C;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 319px;
+}
+#fp-second-banner{
+    background-color: #fff8f2;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#fp-second-banner div:first-child{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #565656;
+    padding-top: 60px;
+}
+#fp-second-banner table{
+    width: 80%;
+    margin: 0px auto;
+}
+#fp-second-banner table tr td{
+    text-align: center;
+}
+#fp-second-banner table tr td img{
+    width: 100px;
+}
+#fp-second-banner table tr td div {
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 22px;
+	font-weight: bold;
+	color: #444;
+}
+#fp-second-banner table tr td span {
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: normal;
+    color: #565656;
+}
+#fp-arrow-down{
+    background-image: url(./images/Arrow_down_circle_small.png);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    top: -50px;
+}
+.fp-banner{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: -110px;
+    padding-top: 80px;
+}
+.fp-banner p{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #565656;
+    margin-top: -30px;
+}
+.fp-banner #fp-partis-1{
+    background-image: url(./images/part1s.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 529px;
+}
+.fp-banner #fp-partis-2{
+    background-image: url(./images/part2s.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 648px;
+}
+.fp-banner #fp-partis-3{
+    background-image: url(./images/part3s.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 352px;
+}
+.fp-partis-desc{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff9c48;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#fp-face{
+    background-image: url(./images/smiley.png);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 164px;
+    top: -80px;
+}
+#fp-upgrade{
+    background-color: #f48825;
+    width: 100%;
+    text-align: center;
+    margin-top:-163px;
+    padding-top: 130px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#fp-upgrade div:first-child{
+    background-color: transparent;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+#fp-upgrade p {
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+#fp-upgrade div a {
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-family: Verdana;
+    font-size: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #60C637;
+    border: 1px solid #468E27;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px -1px #295618;
+}
+#fp-upgrade div a:hover {
+    color: #ffffff;
+    background-color: #6BD33F;
+    border: 1px solid #73E244;
+    box-shadow: 0px 0px 20px -1px #ffffff;
+
+}
+@media(max-width: 600px){
+    #fp-firts-banner{
+        background-image: url(./images/header_small.png);
+        height: 150px;
+    }
+    #fp-second-banner table tr td{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+    #fp-arrow-down{
+        top: -80px;
+        height: 55px;
+    }
+    .fp-banner #fp-partis-1{
+        background-image: url(./images/part1s_small.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 400px;
+        box-sizing: border-box;
+    
+    }
+    .fp-banner #fp-partis-2{
+        background-image: url(./images/part2s_small.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 400px;
+        box-sizing: border-box;
+    }
+    .fp-banner #fp-partis-3{
+        background-image: url(./images/part3is_small.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 280px;
+        box-sizing: border-box;
+    }
+    .fp-partis-desc{
+        font-size: 18px;
+    }
+}
